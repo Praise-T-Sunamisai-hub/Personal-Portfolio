@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Takunda Sunamisai |Portfolio </title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Takunda Sunamisai</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Takunda Sunamisai</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Experienced frontend developer with a passion for creating visually stunning
+                   and user-friendly websites.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/ava.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                       frameworks and libraries,which allows me to implement interactive features.
+                       Additionally, I have experirence working with content management systems (CMS) like
+                       WordPress.
+                    </p>
+                    <div class="about-btn">
+                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>Django</span>
+                        <span>React</span>
+                        <span>Flutter</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>PHP</span>
+                        <span>JAVA</span>
+                        <span>Python</span>
+                        <span>SpringBoot</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>My Projects</h1>
+              <span>Explore my recent work and projects</span>
+          </div>
+          <div class="project-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/calculator/index.html" alt="Calculator Project" onerror="this.style.display='none'">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="projects/calculator/index.html" target="_blank" class="project-link">
+                                <i class="uil uil-external-link-alt"></i>
+                            </a>
+                            <a href="projects/calculator/index.html" target="_blank" class="project-link">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Calculator</h3>
+                    <p>A fully functional calculator built with HTML, CSS, and JavaScript. Features basic arithmetic operations with a clean, modern interface.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="projects/calculator/index.html" target="_blank" class="btn project-btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/Flappy game/index.html" alt="Flappy Bird Game" onerror="this.style.display='none'">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="projects/Flappy game/index.html" target="_blank" class="project-link">
+                                <i class="uil uil-external-link-alt"></i>
+                            </a>
+                            <a href="projects/Flappy game/index.html" target="_blank" class="project-link">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Flappy Bird Game</h3>
+                    <p>A fun and addictive Flappy Bird clone built with HTML5 Canvas and JavaScript. Features smooth gameplay, sound effects, and score tracking.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>Canvas</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="projects/Flappy game/index.html" target="_blank" class="btn project-btn">Play Game</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="projects/Pet Place/index.html" alt="Pet Place Website" onerror="this.style.display='none'">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="projects/Pet Place/index.html" target="_blank" class="project-link">
+                                <i class="uil uil-external-link-alt"></i>
+                            </a>
+                            <a href="projects/Pet Place/index.html" target="_blank" class="project-link">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Pet Place</h3>
+                    <p>A beautiful and responsive website for a pet care business. Features modern design, client testimonials, and service showcases.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="projects/Pet Place/index.html" target="_blank" class="btn project-btn">Visit Site</a>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- TESTIMONIALS BOX ---------------- -->
+       <section class="section" id="testimonials">
+          <div class="top-header">
+              <h1>Testimonials</h1>
+              <span>What my clients say about my work</span>
+          </div>
+          <div class="testimonial-container">
+            <div class="testimonial-wrapper">
+                <div class="testimonial-box active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Takunda delivered an exceptional website that exceeded our expectations. His attention to detail and modern design approach helped increase our conversion rate by 40%. Highly recommended!"</p>
+                        <div class="testimonial-client">
+                            <div class="client-avatar">
+                                <img src="assets/images/ava.jpg" alt="Client Avatar">
+                            </div>
+                            <div class="client-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>CEO, TechStart Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-box">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Working with Takunda was a pleasure. He transformed our outdated website into a modern, responsive platform that perfectly represents our brand. The project was completed on time and within budget."</p>
+                        <div class="testimonial-client">
+                            <div class="client-avatar">
+                                <img src="assets/images/ava.jpg" alt="Client Avatar">
+                            </div>
+                            <div class="client-info">
+                                <h4>Michael Chen</h4>
+                                <span>Marketing Director, Digital Wave</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-box">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Takunda's expertise in frontend development is outstanding. He created a beautiful, user-friendly interface that our customers love. His communication throughout the project was excellent."</p>
+                        <div class="testimonial-client">
+                            <div class="client-avatar">
+                                <img src="assets/images/ava.jpg" alt="Client Avatar">
+                            </div>
+                            <div class="client-info">
+                                <h4>Emily Rodriguez</h4>
+                                <span>Product Manager, InnovateCorp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-nav">
+                <button class="nav-btn prev-btn"><i class="uil uil-angle-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="nav-btn next-btn"><i class="uil uil-angle-right"></i></button>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- FAQ BOX ---------------- -->
+       <section class="section" id="faq">
+          <div class="top-header">
+              <h1>Frequently Asked Questions</h1>
+              <span>Common questions about my services and process</span>
+          </div>
+          <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What services do you offer?</h3>
+                    <span class="faq-toggle"><i class="uil uil-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>I offer comprehensive web development services including frontend development with HTML, CSS, JavaScript, React, and Flutter. I also provide backend development using Python, Java, PHP, and various databases like MySQL, PostgreSQL, and MongoDB. Additionally, I work with modern frameworks like Django and SpringBoot.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How long does a typical project take?</h3>
+                    <span class="faq-toggle"><i class="uil uil-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Project timelines vary depending on complexity and requirements. A simple website typically takes 2-3 weeks, while more complex web applications can take 6-12 weeks. I always provide detailed timelines during the initial consultation and keep you updated throughout the development process.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you provide ongoing support and maintenance?</h3>
+                    <span class="faq-toggle"><i class="uil uil-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, I offer comprehensive support and maintenance packages. This includes bug fixes, security updates, content updates, performance optimization, and feature enhancements. I believe in building long-term relationships with my clients.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is your development process?</h3>
+                    <span class="faq-toggle"><i class="uil uil-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>My development process includes: 1) Initial consultation and requirements gathering, 2) Planning and wireframing, 3) Design mockups and approval, 4) Development with regular updates, 5) Testing and quality assurance, 6) Deployment and launch, 7) Post-launch support and training.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can you work with my existing website?</h3>
+                    <span class="faq-toggle"><i class="uil uil-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! I can work with existing websites to add new features, improve performance, enhance design, or completely redesign them. I'm experienced with various CMS platforms including WordPress and can work with custom-built solutions as well.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What are your rates and payment terms?</h3>
+                    <span class="faq-toggle"><i class="uil uil-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>My rates are competitive and based on project scope and complexity. I offer both fixed-price projects and hourly rates. Payment terms typically include a 50% upfront payment to begin work, with the remainder due upon completion. I accept various payment methods and provide detailed invoices.</p>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: taquesunnah05@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +263 71 256 9167</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-inputs">
+                            <div class="input-group">
+                                <input type="text" class="input-field" id="name" placeholder="Your Name" required>
+                                <label for="name" class="floating-label">Full Name</label>
+                                <span class="input-icon"><i class="uil uil-user"></i></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" class="input-field" id="email" placeholder="Your Email" required>
+                                <label for="email" class="floating-label">Email Address</label>
+                                <span class="input-icon"><i class="uil uil-envelope"></i></span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="input-field" id="subject" placeholder="Subject" required>
+                            <label for="subject" class="floating-label">Subject</label>
+                            <span class="input-icon"><i class="uil uil-tag"></i></span>
+                        </div>
+                        <div class="text-area-group">
+                            <textarea class="input-field" id="message" placeholder="Your Message" required></textarea>
+                            <label for="message" class="floating-label">Message</label>
+                            <span class="input-icon"><i class="uil uil-comment-alt"></i></span>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" class="btn btn-primary">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-icon"><i class="uil uil-message"></i></span>
+                                <div class="btn-loading">
+                                    <i class="uil uil-spinner-alt"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer class="modern-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-brand">
+                    <h2>Praise Takunda Sunamisai</h2>
+                    <p>Crafting digital experiences with passion and precision</p>
+                </div>
+                <div class="footer-social-icons">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Dribbble">
+                        <div class="icon"><i class="uil uil-dribbble"></i></div>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul class="footer-menu">
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Get In Touch</h3>
+                <div class="footer-contact">
+                    <p><i class="uil uil-envelope"></i> taquesunnah05@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> +263 71 256 9167</p>
+                    <p><i class="uil uil-map-marker"></i> Zimbabwe</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-divider"></div>
+            <div class="bottom-content">
+                <p>&copy; 2025 <a href="#home">Praise Takunda Sunamisai</a>. All rights reserved.</p>
+                <div class="footer-extra">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
